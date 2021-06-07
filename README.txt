@@ -12,7 +12,8 @@ Perripheral Description:
 -8 GPIO ports used to detect the input from an external 4x4 membrane keypad.
 
 Design Description:
--4 main states: Reset, input 1, input 2, floating point calculation
+-4 main states: Reset, input 1, input 2, floating point calculation.
+-States are encoded in gray code.
 -Reset state is the default state in which there are no inputs to the floating point adder and nothing is displayed on any
 of the seven segment displays. This state can be reached at any point using the reset button.
 -In input 1 state users can input their first 16-bit number one hex character at a time using the 4x4 keypad and increment button. As
