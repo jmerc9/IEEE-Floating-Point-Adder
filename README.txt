@@ -2,8 +2,8 @@
 by Jacob Mercado
 
 This project was created for the final project of our EE271 Digital System Design course. This project was developed using
-Quartus Prime Lite and the DE10-Lite FPGA board. A video demonstration of the final project can be seen here:
-https://youtu.be/edvVPU_9ZEA.
+Quartus Prime Lite and the DE10-Lite FPGA board. Constraints for this project were generated using terasic system builder.
+A video demonstration of the final project can be seen here: https://youtu.be/edvVPU_9ZEA.
 
 Perripheral Description:
 -6 Seven Segment Displays used to display the current numbers being input as well as the final result of the addition.
